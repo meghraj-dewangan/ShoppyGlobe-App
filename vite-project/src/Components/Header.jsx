@@ -31,7 +31,7 @@ function Header() {
     };
 
     return (
-        <header className="bg-gradient-to-r from-blue-500 to-purple-600 text-white p-4 font-serif shadow-lg md:py-7 sticky top-0">
+        <header className="bg-gradient-to-r from-blue-500 to-purple-600 text-white p-4 font-serif shadow-lg md:py-7 ">
             <div className="container mx-auto flex justify-between items-center">
                 <div className="text-2xl md:text-3xl font-bold"><span className='text-orange-400'>S</span>hoppy<span className='text-orange-400'>G</span>lobe</div>
 

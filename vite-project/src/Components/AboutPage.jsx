@@ -1,12 +1,8 @@
-
+import { Link } from "react-router-dom";
 
 function AboutPage() {
 
-    function formD(e){
-        
-        e.target.value;
-
-    }
+    
     return (
         <>  <div className="min-h-screen bg-gray-100 flex flex-col items-center justify-center">
         {/* About Us Section */}
@@ -20,7 +16,7 @@ function AboutPage() {
             <div>
               <h2 className="text-lg font-semibold text-gray-900">Our Mission</h2>
               <p className="text-gray-600">
-              Our mission is simple: To bring the world to your doorstep. We believe that shopping should be convenient, affordable, and tailored to every individual’s unique preferences. Whether you’re looking for the latest trends or everyday essentials, we have everything in one place.
+              Our mission is to make shopping convenient, affordable, and personalized. From the latest trends to everyday essentials, we bring the world to your doorstep, all in one place.
               </p>
             </div>
             <div>
@@ -52,6 +48,13 @@ function AboutPage() {
             <p className="text-gray-700">8109912840</p>
           </div>
   
+   {/* Start Shopping Button */}
+   <div className="mt-6">
+                    <Link to="/productlist" className="bg-orange-400 text-white px-6 py-3 rounded-lg font-bold hover:bg-orange-600 transition">
+                    Start Shopping
+
+                    </Link>
+                </div>
           
         </div>
       </div>
